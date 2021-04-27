@@ -1,0 +1,31 @@
+{
+  "name": "vis-tree-react",
+  "version": "1.0.0",
+  "description": "react version website of vis-tree",
+  "author": "aadonkeyz <aadonkeyz@gmail.com>",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "start": "dumi dev",
+    "build": "dumi build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bytedance/vis-tree"
+  },
+  "devDependencies": {
+    "dumi": "^1.1.13",
+    "gh-pages": "^3.1.0"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@vis-tree/react": "^0.1.3",
+    "antd": "^4.15.1"
+  }
+}
