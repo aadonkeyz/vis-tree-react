@@ -17,7 +17,7 @@ group:
 ## 可交互
 
 - 通过 `renderNode({ node, expanded, parentNode })` 中的 `expanded` 的值来判断节点的状态（展开/收起）
-- 通过在 `<VisTreeReact />` 上绑定 `ref`，获得组件实例上方法的方法，此处使用 `toggleNodeExpanded()` 方法来切换一个节点的状态
+- 通过在 `<VisTreeReact />` 上绑定 `ref`，获得组件实例上的方法，此处使用 `toggleNodeExpanded()` 方法来切换一个节点的状态
 
 <code src="./Interactive.jsx" />
 

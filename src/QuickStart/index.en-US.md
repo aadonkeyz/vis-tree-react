@@ -17,7 +17,7 @@ group:
 ## Interactive
 
 - Judge the state of the node (expanded/collapsed) by the value of `expanded` in `renderNode({ node, expanded, parentNode })`
-- By binding `ref` on `<VisTreeReact />`, get the method of the method on the component instance, here use the `toggleNodeExpanded()` method to switch the state of a node
+- By binding `ref` on `<VisTreeReact />`, get the method of the component instance, here use the `toggleNodeExpanded()` method to switch the state of a node
 
 <code src="./Interactive.jsx" />
 
