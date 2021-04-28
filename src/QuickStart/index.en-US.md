@@ -25,7 +25,7 @@ group:
 
 Control the zoom of the canvas through `scaleRatio`
 
-<code src="./Scaleble.jsx" />
+<code src="./Scalable.jsx" />
 
 ## Dynamically change the data source
 

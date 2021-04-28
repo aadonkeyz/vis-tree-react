@@ -62,7 +62,7 @@ const dataSource = {
   ],
 };
 
-const Scaleble = () => {
+const Scalable = () => {
   const treeRef = useRef();
 
   const [scaleRatio, setScaleRatio] = useState(1);
@@ -154,4 +154,4 @@ const Scaleble = () => {
   );
 };
 
-export default Scaleble;
+export default Scalable;

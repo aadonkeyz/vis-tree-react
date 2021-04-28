@@ -25,7 +25,7 @@ group:
 
 通过 `scaleRatio` 控制画布的缩放
 
-<code src="./Scaleble.jsx" />
+<code src="./Scalable.jsx" />
 
 ## 动态改变数据源
 
