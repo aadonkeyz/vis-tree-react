@@ -19,7 +19,7 @@ group:
 `renderNode()` 的返回值 `<YourComponent />` 会被渲染在如下 DOM 结构中：
 
 ```html
-<!-- 它的宽高分别由由 options.nodeWidth 和 options.nodeHeight 决定 -->
+<!-- 它的宽高分别由 options.nodeWidth 和 options.nodeHeight 决定 -->
 <div class="tree-node-wrapper">
   <div class="tree-node-content">
     <YourComponent />
@@ -47,7 +47,7 @@ group:
 
 <code src="./RenderLine.jsx" />
 
-节点的渲染通过传递 `renderLine()` 方法来实现，它将接收一个对象作为参数，该对象具有如下属性：
+连接线的渲染通过传递 `renderLine()` 方法来实现，它将接收一个对象作为参数，该对象具有如下属性：
 
 - `startNode`：连接线的起点节点
 - `stopNode`：连接线的终点节点

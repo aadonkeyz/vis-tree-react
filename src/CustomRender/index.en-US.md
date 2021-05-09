@@ -47,7 +47,7 @@ The return value of `renderNode()`, which is `<YourComponent />`, will be render
 
 <code src="./RenderLine.jsx" />
 
-The rendering of the node is achieved by passing the `renderLine()` method, which will receive an object as a parameter, which has the following properties:
+The rendering of the line is achieved by passing the `renderLine()` method, which will receive an object as a parameter, which has the following properties:
 
 - `startNode`: Start node of the connecting line
 - `stopNode`: End node of the connecting line
