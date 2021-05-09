@@ -10,7 +10,7 @@ group:
 
 <code src="./index.jsx" />
 
-## Feature
+## Features
 
 - Support users to use custom components to render nodes and connecting lines
 - Support multiple layout methods
