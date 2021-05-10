@@ -1,6 +1,6 @@
 export default {
   mode: "doc",
-  title: "vis-tree-react",
+  title: "@vis-tree/react",
   logo: ".",
   locales: [
     ["zh-CN", "中文"],
